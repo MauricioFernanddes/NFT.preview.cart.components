@@ -48,3 +48,57 @@ body {
 .img-top:hover .img-overlay {
     display: block;
 }
+.box-text {
+    color: white;
+    text-decoration:none ;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+}
+.box-text a:hover {
+    color: hsl(178, 100%, 50%);
+}
+p {
+    color: hsl(215, 51%, 70%);
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+.eth, .days {
+    display: flex;
+    align-items: center;
+}
+.eth p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 7px;
+}
+.days p {
+    padding-left: 7px;
+}
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+.author {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.author img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+.author a {
+    color: #fff;
+    font-size: 16px;
+}
+.author a:hover {
+    color: hsl(178, 100%, 50%);
+}
